@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:52
+-keep class org.americanbar.datefinder.AboutActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:44
+-keep class org.americanbar.datefinder.CalendarActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class org.americanbar.datefinder.Splash { <init>(...); }
+

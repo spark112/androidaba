@@ -1,0 +1,57 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.americanbar.datefinder"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="15" />
+	
+    <!--
+    <permission
+    	android:name=""
+    	android:protectionLevel="signature" />    
+    <uses-permission android:name="" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.oggogle.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    
+    <uses-feature
+        android:glEsversion="0x00020000"
+        android:request="true" />
+    -->
+    
+    <application android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@android:style/Theme.Black.NoTitleBar">
+        
+        <!--
+        <meta-data
+            android:name="com.google.android.calendar.v3.API_KEY"
+            android:value="AIzaSyC80W2Yu1pMo0kF5nH3mkPAXzuG7T9QewU" />
+        -->
+          
+        <activity 
+            android:name=".Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CalendarActivity"
+            android:label="Calendar" >
+            <intent-filter>
+                <action android:name="org.americanbar.datefinder.CALENDARACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="About" >
+        </activity>
+    </application>
+</manifest>

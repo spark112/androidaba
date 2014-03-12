@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DateFinder</string>
+    <string name="btn_about">!</string>
+    <string name="txt_hint">Search for a holiday&#8230;</string>
+    <string name="btn_search">@drawable/btn_search</string>
+    <string name="search_desc">Click to find date</string>
+</resources>
